@@ -1,0 +1,19 @@
+{
+  "name": "extract-twitch-shit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "micro": "^9.3.3",
+    "node-fetch": "^2.3.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.15.3"
+  }
+}
