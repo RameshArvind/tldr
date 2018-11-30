@@ -1,6 +1,6 @@
 import re
 import datetime
-
+import csv
 def extract(s):
     matches = re.search("[[](.*)[,]\s(.*)\s([AP]M)]\s[<](.*)[>]\s(.*)", s)
     if( not matches):
@@ -15,7 +15,7 @@ l1 = list(filter(lambda y: len(y) > 0, map(lambda x: extract(x), l)))
 
 
 
-interval = 30
+interval = 1
 start = l1[0][0]
 mg = {}
 for e in l1:
@@ -23,6 +23,9 @@ for e in l1:
    t = mg.get(bucket, [])
    t.append(e)
    mg[bucket] = t
-for key,value in sorted(mg.iteritems(), key = lambda (k,v) : len(v), reverse = True)[:25]:
-    
-    print(str(key) + "---" + str(datetime.timedelta(seconds = key*interval)) + "--"+ str(len(value)))
+
+with open("f.csv", "w") as g:
+    for key,value in sorted(mg.iteritems(), key = lambda (k,v) : len(v), reverse = True):
+        spamwriter = csv.writer(g)
+        spamwriter.writerow([key, len(value)])
+        #print(str(key) + "---" + str(datetime.timedelta(seconds = key*interval)) + "--"+ str(len(value)))
