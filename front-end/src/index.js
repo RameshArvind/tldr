@@ -1,6 +1,4 @@
-// let videoId = "336685704";
-// let videoId = "171190663"; !!!!
-// let videoId = "138023741";
+// let videoId = "171190663"; // CS:GO
 // let videoId = "103229429"; // DOTA
 let videoId = new URL(window.location).searchParams.get("videoId");
 function formatTime(seconds) {
