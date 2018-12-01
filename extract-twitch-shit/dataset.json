@@ -1,0 +1,131 @@
+{
+  "data": [
+    {
+      "chatlog": "tldr/extract-twitch-shit/chats/90000322.chat",
+      "duration": 37012,
+      "vodid": "90000322",
+      "clips": [[27702, 27734]]
+    },
+    {
+      "chatlog": "tldr/extract-twitch-shit/chats/161345632.chat",
+      "duration": 23585,
+      "vodid": "161345632",
+      "clips": [[19368, 19398]]
+    },
+    {
+      "chatlog": "tldr/extract-twitch-shit/chats/162406490.chat",
+      "duration": 43925,
+      "vodid": "162406490",
+      "clips": [[19344, 19380]]
+    },
+    {
+      "chatlog": "tldr/extract-twitch-shit/chats/324500058.chat",
+      "duration": 47482,
+      "vodid": "324500058",
+      "clips": [[17335, 17352]]
+    },
+    {
+      "chatlog": "tldr/extract-twitch-shit/chats/337536082.chat",
+      "duration": 39658,
+      "vodid": "337536082",
+      "clips": [[10723, 10733]]
+    },
+    {
+      "chatlog": "tldr/extract-twitch-shit/chats/136911382.chat",
+      "duration": 36324,
+      "vodid": "136911382",
+      "clips": [[31251, 31286]]
+    },
+    {
+      "chatlog": "tldr/extract-twitch-shit/chats/157526253.chat",
+      "duration": 25688,
+      "vodid": "157526253",
+      "clips": [[24845, 24875]]
+    },
+    {
+      "chatlog": "tldr/extract-twitch-shit/chats/185013716.chat",
+      "duration": 42538,
+      "vodid": "185013716",
+      "clips": [[34905, 34932]]
+    },
+    {
+      "chatlog": "tldr/extract-twitch-shit/chats/322005220.chat",
+      "duration": 25177,
+      "vodid": "322005220",
+      "clips": [[24683, 24730]]
+    },
+    {
+      "chatlog": "tldr/extract-twitch-shit/chats/138023741.chat",
+      "duration": 17455,
+      "vodid": "138023741",
+      "clips": [[7613, 7645]]
+    },
+    {
+      "chatlog": "tldr/extract-twitch-shit/chats/252765634.chat",
+      "duration": 46425,
+      "vodid": "252765634",
+      "clips": [[32708, 32738]]
+    },
+    {
+      "chatlog": "tldr/extract-twitch-shit/chats/332440904.chat",
+      "duration": 39731,
+      "vodid": "332440904",
+      "clips": [[24572, 24601]]
+    },
+    {
+      "chatlog": "tldr/extract-twitch-shit/chats/333414544.chat",
+      "duration": 33713,
+      "vodid": "333414544",
+      "clips": [[27706, 27732]]
+    },
+    {
+      "chatlog": "tldr/extract-twitch-shit/chats/140716170.chat",
+      "duration": 26662,
+      "vodid": "140716170",
+      "clips": [[11657, 11676]]
+    },
+    {
+      "chatlog": "tldr/extract-twitch-shit/chats/149340095.chat",
+      "duration": 35440,
+      "vodid": "149340095",
+      "clips": [[27513, 27572]]
+    },
+    {
+      "chatlog": "tldr/extract-twitch-shit/chats/157767329.chat",
+      "duration": 23152,
+      "vodid": "157767329",
+      "clips": [[13335, 13365]]
+    },
+    {
+      "chatlog": "tldr/extract-twitch-shit/chats/84774514.chat",
+      "duration": 14731,
+      "vodid": "84774514",
+      "clips": [[13087, 13120]]
+    },
+    {
+      "chatlog": "tldr/extract-twitch-shit/chats/90695672.chat",
+      "duration": 26063,
+      "vodid": "90695672",
+      "clips": [[13559, 13587]]
+    },
+    {
+      "chatlog": "tldr/extract-twitch-shit/chats/171190663.chat",
+      "duration": 3428,
+      "vodid": "171190663",
+      "clips": [[34303, 34333]]
+    },
+    {
+      "chatlog": "tldr/extract-twitch-shit/chats/178801728.chat",
+      "duration": 31647,
+      "vodid": "178801728",
+      "clips": [[23422, 23448]]
+    },
+    {
+      "chatlog": "tldr/extract-twitch-shit/chats/322005066.chat",
+      "duration": 91016,
+      "vodid": "322005066",
+      "clips": [[21776, 21806]]
+    }
+  ],
+  "cursor": "eyJiIjpudWxsLCJhIjp7IkN1cnNvciI6Ik5qQT0ifX0"
+}

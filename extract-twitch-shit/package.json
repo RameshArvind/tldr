@@ -10,11 +10,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "date-fns": "^1.29.0",
+    "dotenv": "^6.1.0",
     "micro": "^9.3.3",
+    "micro-cors": "^0.1.1",
     "node-fetch": "^2.3.0",
-    "puppeteer": "^1.11.0"
+    "puppeteer": "^1.11.0",
+    "twitch-chatlog": "^6.1.0"
   },
   "devDependencies": {
+    "eslint": "^5.9.0",
     "prettier": "^1.15.3"
   }
 }
