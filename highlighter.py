@@ -24,8 +24,5 @@ for e in l1:
    t.append(e)
    mg[bucket] = t
 
-with open("f.csv", "w") as g:
-    for key,value in mg.iteritems():
-        spamwriter = csv.writer(g)
-        spamwriter.writerow([key, len(value)])
-        #print(str(key) + "---" + str(datetime.timedelta(seconds = key*interval)) + "--"+ str(len(value)))
+for key,value in sorted(mg.iteritems(), key = lambda (k,v) : len(v), reverse = True)[:25]:
+    print("\n".join(list(map(lambda x: x[-1], value))))
